@@ -14,10 +14,12 @@
             System.out.println(i);
         }
 
-        d();
+        a();
+        b();
+        c();
     }
 
-    public static void d() {
+    public static void a() {
         int sum = 0;
 
         for (int i = 1; i <= 10; i++) {
@@ -25,5 +27,21 @@
         }
         System.out.println("합계" + sum);
     }
-    
+
+    public static void b() {
+        for(int i = 1; i<= 10; i++){
+            if (i%2 ==0) {
+                System.out.println(i);
+            }
+        }
+    }
+
+    public static void c() {
+        int i = 1;
+        while ( i <= 5) {
+            System.out.println(i);
+            i++;
+        }
+    } //for문이랑 다르게 촉기값, 조건, 증감이 분리돼 있어.
+    // 반복 구조 같지만 "언제 멈출지 직접 제어할 때" 더 자주 쓴다.
 }
