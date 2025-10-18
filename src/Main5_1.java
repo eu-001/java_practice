@@ -54,5 +54,7 @@ public class Main5_1 {
         }
 
         System.out.println("평균값:" + sum/nums.length);
+        /*int끼리 나누면 소수점이 버려지므로,
+        System.out.println("평균값:" + (double) sum/ nums.length); **/
     }
 }
